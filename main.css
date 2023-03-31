@@ -1,0 +1,21 @@
+body {
+    font-family: 'Merriweather', serif;
+    background-image: url("c:/ElevenFiftyProjects/codingFoundations/htmlCssprojects/assets/lolbackground.jpg");
+    background-size: cover;
+}
+
+nav {
+    position: fixed;
+    left: 0px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, .5);
+    width: 100%;
+    text-align: center;
+    border: .5px solid black;
+    box-shadow: 10px 5px 15px black;
+}
+
+.nav-link {
+    font-size: large;
+    margin: 1.5em;
+}
