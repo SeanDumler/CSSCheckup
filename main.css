@@ -1,0 +1,85 @@
+body {
+    background-image: url("c:/ElevenFiftyProjects/codingFoundations/htmlCssprojects/assets/houseconstruction.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav {
+    background-color: rgba(255, 255, 255, .5);
+    width: 100%;
+    height: 1.5em;
+    padding: 1em;
+    text-align: center;
+    /* border: 1px solid red; */
+}
+
+.nav-link {
+    margin-left: 3em;
+    margin-top: 2em;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    background: white;
+    width: 270px;
+    margin: 10em 5em;
+    border-radius: 15px;
+}
+
+.card-image {
+    background-color: blue;
+    height: 170px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+#image-1 {
+    background-image: url("c:/ElevenFiftyProjects/codingFoundations/htmlCssprojects/assets/hammering.jpg");
+}
+
+#image-2 {
+    background-image: url("../../htmlCssprojects/assets/roofing.jpg");
+}
+
+#image-3 {
+    background-image: url("../../htmlCssprojects/assets/drywall.jpg");
+}
+
+.card h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+}
+
+.card p {
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 10px;
+}
+
+.card a {
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    margin: 20px 50px;
+    text-decoration: none;
+}
+
+.card:hover {
+    background-color: rgba(62, 62, 62, 1);
+    color: white;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease; 
+}
